@@ -1,0 +1,1 @@
+./Scripts/locs --author "$(git config user.name)" --project DevFest --root Project

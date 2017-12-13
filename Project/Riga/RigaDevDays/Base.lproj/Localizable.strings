@@ -1,0 +1,95 @@
+
+/*MARK: Key_Part_Add*/
+"key_part_add.button.clear" = "Clear";
+"key_part_add.text.header" = "Type in the key part";
+
+/*MARK: Leaderboard*/
+"leaderboard.text.header" = "Scoreboard";
+"profile.text.deactivation_code.title" = "Private key:";
+"profile.text.header" = "Save AMOS!";
+
+/*Fuzzy*/
+"profile.text.leave_game" = "Leave";
+"profile.text.keys" = "Key parts";
+
+/*MARK: Profile*/
+/*Fuzzy*/
+"profile.button.add_key" = "Add key part";
+
+/*Fuzzy*/
+"profile.text.remaining_keys.title" = "Find remaining key parts here:";
+
+/*Fuzzy*/
+"profile.text.collected_keys.title" = "All key parts collected!";
+
+/*Fuzzy*/
+"profile.text.collected_keys.subtitle" = "Good job. Now you need to sort them to create a private key.";
+
+/*Fuzzy*/
+"profile.button.collected_keys" = "Continue";
+"profile.text.top10.title" = "Good work!";
+
+/*Fuzzy*/
+"profile.text.completed_keys.title" = "Good work!";
+"profile.text.top10.subtitle" = "You have successfully obtained the private key.";
+
+/*Fuzzy*/
+"profile.text.completed_keys.subtitle" = "Mission accomplished!";
+"profile.text.top10.description" = "Come to the ending keynote at 18:15 - you might win a prize!";
+
+/*Fuzzy*/
+"profile.text.completed_keys.description" = "Come to see the ending keynote at 18:15";
+"tabs.button.profile" = "Profile";
+
+/*MARK: Tabs*/
+"tabs.button.leaderboard" = "Scoreboard";
+
+/*MARK: Create_Key*/
+"create_key.button.submit" = "Submit";
+"create_key.text.header" = "Create private key";
+"create_key.text.subheader" = "Complete a sentence from the\ncontrol words by drag and drop\nand hit submit at the end.";
+"key_part_added.text.title" = "Good job!";
+"key_part_added.text.subtitle" = "You have successfully unlocked\na new part of the private key.";
+
+/*MARK: Key_Part_Added*/
+"key_part_added.button.continue" = "Continue";
+
+/*MARK: User*/
+"user.text.points" = "points";
+"user.text.position" = "position";
+
+/*Fuzzy*/
+"create_key.text.header_wrong" = "Wrong order";
+
+/*Fuzzy*/
+"create_key.text.subheader_wrong" = "The order of the key parts is\nincorrect. Try rearanging\nthem again.";
+"key_part_add.text.wrong" = "Incorrect code, try again in";
+
+/*MARK: General*/
+"general.buttons.ok" = "Ok";
+
+/*MARK: Network*/
+/*Fuzzy*/
+"network.error.alert_title" = "Oops";
+
+/*Fuzzy*/
+"network.error.no_connection_to_firebase" = "It appears the you don't have an internet connection :(\nYou need to be online for this operation.";
+
+/*MARK: Map*/
+"map.vc.title" = "Map";
+"key_part_add.text.already_unlocked" = "You already have this key part.";
+"game.title" = "Game";
+"key_part_add_timed_out" = "This action is currently unavailable";
+"key_part_add.text.seconds" = "seconds";
+"key_part_add.timed.out" = "Incorrect code, try again in %1$d seconds";
+"bottom_bar.title.game" = "Game";
+"calendar.permission-denied" = "Calendar permission denied";
+"calendar.change-in-settings" = "Change in settings";
+"calendar.go-to-settings" = "Permission settings";
+"calendar.cancel" = "Cancel";
+"login.alert.invalid.title" = "Invalid authorization";
+"login.alert.invalid.message" = "Please try again.";
+"start.alert.no-connection.title" = "Connection Error";
+"start.alert.no-connection.message" = "Please connect to internet";
+"user.alert.no-connection.title" = "Connection Error";
+"user.alert.no-connection.message" = "Please connect to internet";

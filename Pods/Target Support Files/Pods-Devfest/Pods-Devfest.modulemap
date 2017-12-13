@@ -1,0 +1,6 @@
+framework module Pods_Devfest {
+  umbrella header "Pods-Devfest-umbrella.h"
+
+  export *
+  module * { export * }
+}

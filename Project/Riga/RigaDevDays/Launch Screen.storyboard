@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_devfest_logo" translatesAutoresizingMaskIntoConstraints="NO" id="c37-OB-CTi">
+                                <rect key="frame" x="127" y="207" width="120" height="253"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="7wj-So-iIc"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_eman_logo" translatesAutoresizingMaskIntoConstraints="NO" id="k3G-lu-CbZ">
+                                <rect key="frame" x="0.0" y="600.5" width="375" height="66.5"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="k3G-lu-CbZ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="22g-77-W4o"/>
+                            <constraint firstItem="k3G-lu-CbZ" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.1" id="FPa-S2-63S"/>
+                            <constraint firstItem="c37-OB-CTi" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="HSV-lI-8Cm"/>
+                            <constraint firstItem="c37-OB-CTi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Kxn-1A-QT5"/>
+                            <constraint firstAttribute="trailing" secondItem="k3G-lu-CbZ" secondAttribute="trailing" id="Q9g-CO-Xgn"/>
+                            <constraint firstItem="c37-OB-CTi" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.38" id="RUj-GX-U4W"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="k3G-lu-CbZ" secondAttribute="bottom" id="enc-Ya-OEb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-340" y="356"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_devfest_logo" width="120" height="120"/>
+        <image name="img_eman_logo" width="69" height="26"/>
+    </resources>
+</document>
